@@ -1,0 +1,15 @@
+{
+    "manifest_version": 3,
+
+    "name": "Replace New Tab",
+    "description": "This extension will replace the tab that is open when the new tab action happend",
+    "version": "1.0",
+
+    "action": {
+        "default_icon": "icon.png"
+    },
+
+    "chrome_url_overrides": {
+        "newtab": "newTabOverride.html"
+    }
+}
